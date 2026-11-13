@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/boards/native/native_sim/Kconfig.native_sim"

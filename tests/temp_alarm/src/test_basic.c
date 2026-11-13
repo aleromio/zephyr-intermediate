@@ -58,6 +58,7 @@ ZTEST(temp_alarm_get_status, test_status_after_init)
 	zassert_false(status.is_alarming, "is_alarming must be false after init");
 	zassert_equal(status.last_error, 0, "last_error must be 0 after init, got %d",
 		      status.last_error);
+			  
 }
 
 /*
@@ -91,6 +92,7 @@ ZTEST(temp_alarm_check, test_above_threshold)
 	/* TODO(l8-task1): a reading of 40 C raises the alarm and counts it.
 	 * See TEST_SPEC.md "Suite temp_alarm_check" #3.
 	 */
+	temp_alarm_check();   // justo to check fake worked.
 	ztest_test_skip();
 }
 

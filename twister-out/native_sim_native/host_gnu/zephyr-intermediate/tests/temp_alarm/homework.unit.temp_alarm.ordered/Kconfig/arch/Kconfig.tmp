@@ -1,0 +1,12 @@
+# Load Zephyr Arch Kconfig descriptions.
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/rx/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/x86/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/xtensa/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/sparc/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/riscv/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/posix/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/openrisc/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/mips/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/arm64/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/arm/Kconfig"
+osource "/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/arch/arc/Kconfig"
