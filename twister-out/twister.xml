@@ -1,8 +1,8 @@
 <testsuites>
-	<testsuite name="native_sim/native" timestamp="2026-11-16T10:46:07.225851" time="0.01" tests="1" failures="0" errors="0" skipped="0">
+	<testsuite name="native_sim/native" timestamp="2026-11-16T12:00:47.222255" time="0.02" tests="1" failures="0" errors="0" skipped="0">
 		<properties>
 			<property name="version" value="v4.4.0" />
 		</properties>
-		<testcase classname="native_sim/native:homework.unit.temp_alarm.ordered" name="homework.unit.temp_alarm.ordered" time="0.01" />
+		<testcase classname="native_sim/native:homework.unit.temp_alarm.ordered" name="homework.unit.temp_alarm.ordered" time="0.02" />
 	</testsuite>
 </testsuites>
