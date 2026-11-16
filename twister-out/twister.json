@@ -4,7 +4,7 @@
         "zephyr_version":"v4.4.0",
         "toolchain":"zephyr/gnu",
         "commit_date":"2026-04-14T14:45:49-05:00",
-        "run_date":"2026-11-13T18:39:16+00:00",
+        "run_date":"2026-11-16T13:46:06+00:00",
         "options":{
             "help":null,
             "zephyr_base":null,
@@ -25,43 +25,38 @@
             "arch":"posix",
             "platform":"native_sim/native",
             "path":"../../zephyr-intermediate/tests/temp_alarm",
-            "run_id":"4988208aa8e28e105849f4b48c3854a7",
+            "run_id":"efc12621fc5318abbe9017699a62861f",
             "runnable":true,
             "retries":0,
             "toolchain":"host/gnu",
             "status":"passed",
             "execution_time":"0.01",
-            "build_time":"6.15",
+            "build_time":"6.67",
             "testcases":[
                 {
                     "identifier":"homework.unit.temp_alarm.ordered.temp_alarm_reset.reset_clears_state",
                     "execution_time":"0.00",
-                    "status":"skipped",
-                    "reason":"ztest skip"
+                    "status":"passed"
                 },
                 {
                     "identifier":"homework.unit.temp_alarm.ordered.temp_alarm_threshold.new_threshold_clears_alarm",
                     "execution_time":"0.00",
-                    "status":"skipped",
-                    "reason":"ztest skip"
+                    "status":"passed"
                 },
                 {
                     "identifier":"homework.unit.temp_alarm.ordered.temp_alarm_check.above_threshold",
                     "execution_time":"0.00",
-                    "status":"skipped",
-                    "reason":"ztest skip"
+                    "status":"passed"
                 },
                 {
                     "identifier":"homework.unit.temp_alarm.ordered.temp_alarm_check.at_threshold",
                     "execution_time":"0.00",
-                    "status":"skipped",
-                    "reason":"ztest skip"
+                    "status":"passed"
                 },
                 {
                     "identifier":"homework.unit.temp_alarm.ordered.temp_alarm_check.below_threshold",
                     "execution_time":"0.00",
-                    "status":"skipped",
-                    "reason":"ztest skip"
+                    "status":"passed"
                 },
                 {
                     "identifier":"homework.unit.temp_alarm.ordered.temp_alarm_get_status.status_after_init",

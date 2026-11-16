@@ -361,7 +361,7 @@ SOC_FULL_DIR:PATH=/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/soc/nat
 TC_NAME:UNINITIALIZED=homework.unit.temp_alarm.ordered
 
 //No help, variable specified on the command line.
-TC_RUNID:UNINITIALIZED=4988208aa8e28e105849f4b48c3854a7
+TC_RUNID:UNINITIALIZED=efc12621fc5318abbe9017699a62861f
 
 //True if toolchain supports libstdc++
 TOOLCHAIN_HAS_GLIBCXX:BOOL=ON
