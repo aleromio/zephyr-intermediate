@@ -342,6 +342,9 @@ NSI_DIR:PATH=/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/scripts/nati
 //Path to a program.
 OPENOCD:FILEPATH=/usr/bin/openocd
 
+//No help, variable specified on the command line.
+OVERLAY_CONFIG:UNINITIALIZED=/home/aleromio/curso_zephyr/romioworkspace/zephyr-intermediate/twister-out/native_sim_native/host_gnu/zephyr-intermediate/tests/temp_alarm/homework.unit.temp_alarm.ordered/twister/testsuite_extra.conf
+
 //Path to a program.
 PAHOLE:FILEPATH=PAHOLE-NOTFOUND
 
@@ -361,7 +364,7 @@ SOC_FULL_DIR:PATH=/home/aleromio/curso_zephyr/romioworkspace/deps/zephyr/soc/nat
 TC_NAME:UNINITIALIZED=homework.unit.temp_alarm.ordered
 
 //No help, variable specified on the command line.
-TC_RUNID:UNINITIALIZED=b36d14e300e71dfcdd84bef47bda51ab
+TC_RUNID:UNINITIALIZED=ab704192baa73060c26d37758e03af07
 
 //True if toolchain supports libstdc++
 TOOLCHAIN_HAS_GLIBCXX:BOOL=ON
